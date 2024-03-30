@@ -28749,8 +28749,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _mlsaPortfolioPng = require("../images/MLSA_Portfolio.png");
-var _mlsaPortfolioPngDefault = parcelHelpers.interopDefault(_mlsaPortfolioPng);
+ */ var _mlsaportfolioJpg = require("../images/mlsaportfolio.jpg");
+var _mlsaportfolioJpgDefault = parcelHelpers.interopDefault(_mlsaportfolioJpg);
 const imageAltText = "Hasib is recieveing Vice Chancellor Merit Award from the Vice Chancellor of IUB";
 /**
  * Project list
@@ -28774,7 +28774,7 @@ const imageAltText = "Hasib is recieveing Vice Chancellor Merit Award from the V
         url: "https://tutorial.thehasibhasan.tech/"
     },
     {
-        title: "Data_deduplication_using_dynamic_perfect_hash_techniques",
+        title: "Data deduplication using dynamic perfect hash techniques",
         description: "In Computer Science hashing is use for storing data retrieving data in constant time.On the other hand, with a huge use and collection of data, cloud storage has gained popularity among the users. In cloud storage most of the data is redundant. We are showing a mechanism for data deduplication counting using dynamic perfect hash techniques.",
         url: "https://github.com/hasibhasan-github/Data_deduplication_using_dynamic_perfect_hash_techniques.git"
     }, 
@@ -28807,7 +28807,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _mlsaPortfolioPngDefault.default),
+                            src: (0, _mlsaportfolioJpgDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28890,8 +28890,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/MLSA_Portfolio.png":"flA9e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"flA9e":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "MLSA_Portfolio.47c1a146.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/mlsaportfolio.jpg":"hBlFS"}],"hBlFS":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "mlsaportfolio.bc022a5b.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
