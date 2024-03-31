@@ -27090,12 +27090,12 @@ var _stylesCss = require("./styles.css");
     name: "MD HASIB HASAN",
     title: "Tech Geek | Microsoft Learn Student Ambassador | Artificial Intelligence",
     email: "mdhasib.hasan@studentambassadors.com",
-    gitHub: "https://github.com/hasibhasan-github",
-    instagram: "https://instagram.com/mr_arabiaan",
-    linkedIn: "https://www.linkedin.com/in/md-hasib-hasan-982a5523b",
+    gitHub: "hasibhasan-github",
+    instagram: "mr_arabiaan",
+    linkedIn: "in/md-hasib-hasan-982a5523b",
     medium: "",
     twitter: "",
-    youTube: "https://www.youtube.com/channel/UCtULqY_nVP8gTGtDJx8ckVw"
+    youTube: "channel/UCtULqY_nVP8gTGtDJx8ckVw"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
