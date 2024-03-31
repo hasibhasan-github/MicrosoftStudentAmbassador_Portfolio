@@ -27092,10 +27092,10 @@ var _stylesCss = require("./styles.css");
     email: "mdhasib.hasan@studentambassadors.com",
     gitHub: "hasibhasan-github",
     instagram: "mr_arabiaan",
-    linkedIn: "in/md-hasib-hasan-982a5523b",
+    linkedIn: "md-hasib-hasan-982a5523b",
     medium: "",
     twitter: "",
-    youTube: "channel/UCtULqY_nVP8gTGtDJx8ckVw"
+    youTube: "@redoxexplore5157"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
@@ -27676,7 +27676,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: `https://www.youtube.com/c/${youTube}`,
+                        href: `https://www.youtube.com/${youTube}`,
                         target: "_blank",
                         rel: "noopener noreferrer",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27685,7 +27685,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 112,
+                            lineNumber: 108,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
@@ -27711,7 +27711,7 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 116,
+                lineNumber: 112,
                 columnNumber: 7
             }, undefined)
         ]
