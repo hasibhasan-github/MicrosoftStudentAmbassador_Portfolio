@@ -28769,9 +28769,9 @@ const imageAltText = "Hasib is recieveing Vice Chancellor Merit Award from the V
         url: "https://github.com/hasibhasan-github/IUB_CSE303_DatabaseManagementSystem_WebApplicationTo_helpFarmers_FindandBuySuppliesAtTheBestPrices/tree/WebApplicationToHelpFarmersFindAndBuySuppliesAtTheBestPrices"
     },
     {
-        title: "My Resume Site",
-        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-        url: "https://tutorial.thehasibhasan.tech/"
+        title: "IoT-based Hemoglobin Level Detection system for Anemia Patients with image processing",
+        description: "This repository offers an IoT-powered solution for non-invasive hemoglobin level estimation in anemia patients. Leveraging image processing techniques and CNN, our system delivers real-time results via IoT, enhancing healthcare accessibility and patient care.",
+        url: "https://github.com/hasibhasan-github/IoT-based-Hemoglobin-Level-Detection-system-for-Anemia-Patients-with-image-processing"
     },
     {
         title: "Data deduplication using dynamic perfect hash techniques",
