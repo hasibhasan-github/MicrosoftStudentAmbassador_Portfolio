@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/mlsaportfolio.3a8a8307.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Hasib is recieveing Vice Chancellor Merit Award from the Vice Chancellor of IUB";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Simulating Operations of a DOHS Management Sytstem Software",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This project serves as a comprehensive showcase of a sophisticated management system software developed in Java, utilizing the Model-View-Controller (MVC) architecture and JavaFX technology. The software is designed to simulate and efficiently manage the operations of a fictitious organization called 'DOHS' (Defence Officers' Housing Scheme).",
+    url: "https://github.com/hasibhasan-github/SimulatingOperationsOfADOHS_Management_System_Software/tree/SimulatingOperationsOfDOHS_Management_System_Software",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Web Application To Help Farmers Find And Buy Supplies At The Best Prices",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "In this project for the Database Management System course at IUB, we aim to develop a web application facilitating farmers in efficiently finding and purchasing agricultural supplies at the most competitive prices.",
+    url: "https://github.com/hasibhasan-github/IUB_CSE303_DatabaseManagementSystem_WebApplicationTo_helpFarmers_FindandBuySuppliesAtTheBestPrices/tree/WebApplicationToHelpFarmersFindAndBuySuppliesAtTheBestPrices",
   },
   {
-    title: "My Resume Site",
+    title: "IoT-based Hemoglobin Level Detection system for Anemia Patients with image processing",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This research project offers an IoT-powered solution for non-invasive hemoglobin level estimation in anemia patients. Leveraging image processing techniques and CNN, our system delivers real-time results via IoT, enhancing healthcare accessibility and patient care.",
+    url: "https://github.com/hasibhasan-github/IoT-based-Hemoglobin-Level-Detection-system-for-Anemia-Patients-with-image-processing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Data deduplication using dynamic perfect hash techniques",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "In Computer Science hashing is use for storing data retrieving data in constant time.On the other hand, with a huge use and collection of data, cloud storage has gained popularity among the users. In cloud storage most of the data is redundant. We are showing a mechanism for data deduplication counting using dynamic perfect hash techniques.",
+    url: "https://github.com/hasibhasan-github/Data_deduplication_using_dynamic_perfect_hash_techniques.git",
   },
 ];
 

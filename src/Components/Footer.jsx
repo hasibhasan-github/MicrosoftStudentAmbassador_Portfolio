@@ -15,8 +15,8 @@ import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
-import mediumIcon from "../images/socials/medium.svg";
-import twitterIcon from "../images/socials/twitter.svg";
+//import mediumIcon from "../images/socials/medium.svg";
+//import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
 /**
@@ -33,10 +33,10 @@ const Footer = (props) => {
     gitHub,
     instagram,
     linkedIn,
-    medium,
+    //medium,
     name,
     primaryColor,
-    twitter,
+    //twitter,
     youTube,
   } = props;
 
@@ -61,7 +61,7 @@ const Footer = (props) => {
         }}
       >
         {email && (
-          <a href={`mailto:${email}`}>
+          <a href={`mailto:mdhasib.hasan@studentambassadors.com`}>
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
@@ -71,13 +71,17 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a
+            href={`https://github.com/hasibhasan-github`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
         {instagram && (
           <a
-            href={`https://www.instagram.com/${instagram}`}
+            href={`https://www.instagram.com/mr_arabiaan/`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -86,26 +90,26 @@ const Footer = (props) => {
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`https://www.linkedin.com/in/md-hasib-hasan-982a5523b/`}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
-        {medium && (
+        {/* {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
-        )}
-        {twitter && (
+        )} */}
+        {/* {twitter && (
           <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
-        )}
+        )} */}
         {youTube && (
           <a
-            href={`https://www.youtube.com/c/${youTube}`}
+            href={`https://www.youtube.com/@redoxexplore5157`}
             target="_blank"
             rel="noopener noreferrer"
           >
