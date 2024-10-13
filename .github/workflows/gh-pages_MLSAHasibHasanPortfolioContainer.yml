@@ -1,0 +1,51 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy container app to Azure Web App - MLSAHasibHasanPortfolioContainer
+
+on:
+  push:
+    branches:
+      - gh-pages
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    - name: Log in to registry
+      uses: docker/login-action@v2
+      with:
+        registry: https://mcr.microsoft.com/
+        username: ${{ secrets.AzureAppService_ContainerUsername_ea5c38a9c60540d0977bdbf53f0f892d }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_84ada6af8a8b41ddaf05d7750472dc08 }}
+
+    - name: Build and push container image to registry
+      uses: docker/build-push-action@v3
+      with:
+        push: true
+        tags: mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_ea5c38a9c60540d0977bdbf53f0f892d }}/appsvc/staticsite:${{ github.sha }}
+        file: ./Dockerfile
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+    - name: Deploy to Azure Web App
+      id: deploy-to-webapp
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'MLSAHasibHasanPortfolioContainer'
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4b01a67d76d145c2a338e56fdf5cc35e }}
+        images: 'mcr.microsoft.com/${{ secrets.AzureAppService_ContainerUsername_ea5c38a9c60540d0977bdbf53f0f892d }}/appsvc/staticsite:${{ github.sha }}'
