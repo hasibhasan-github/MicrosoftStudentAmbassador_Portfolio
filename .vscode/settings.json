@@ -1,0 +1,8 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/64384efc-44ac-4a84-88d2-bddbc8e8ce13/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/hasibhasanwork",
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
